@@ -1,0 +1,50 @@
+/* Підключені Google Fonts: Lobster та Roboto */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 40px;
+  background: #fafafa;
+  color: #333;
+}
+
+/* Заголовок з нестандартним шрифтом та властивостями font */
+.fancy-title {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Абзац з підкресленням та перевернутою лінією */
+.underlined {
+  font-size: 1.2rem;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+/* Абзац з тінню тексту */
+.shadowed {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #888;
+  margin-bottom: 20px;
+}
+
+/* Абзац з highlight через span */
+.decorated {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.decorated .highlight {
+  background-color: #ffeb3b;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}

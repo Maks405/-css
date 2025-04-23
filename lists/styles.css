@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #A9A9A9; /* світло-сірий фон */
+}
+
+ul.disc {
+    list-style-type: disc;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.custom-image {
+    list-style-image: url('images/marker.png');
+}

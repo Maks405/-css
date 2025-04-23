@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Великий текст з кнопками і посиланнями</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function showAlert() {
+      alert("Привіт! Це JavaScript-кнопка працює 🎉");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>HTML-проєкт: Великий текст, кнопки, посилання</h1>
+    <nav>
+      <a href="#section1" class="link-button">Розділ 1</a>
+      <a href="#section2" class="link-button">Розділ 2</a>
+      <a href="lists/index.html" class="link-button">Списки</a>
+      <a href="tables/index.html" class="link-button">Таблиці</a>
+      <a href="formats/index.html" class="link-button">Форматування тексту</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1">
+      <h2>Розділ 1: Вступ</h2>
+      <p>
+        Це велика вступна частина. Вона містить текст, форматування, ілюстрації, посилання та структуру документа.
+      </p>
+    </section>
+
+    <section id="section2">
+      <h2>Розділ 2: Кнопки</h2>
+
+      <h3>1. JavaScript-кнопка</h3>
+      <button onclick="showAlert()">Натисни мене</button>
+
+      <h3>2. Власна CSS-кнопка</h3>
+      <a href="images/index.html" class="my-button">Галерея зображень</a>
+
+      <h3>3. Кнопка з генератора</h3>
+      <a href="formats/index.html" style="
+        background: linear-gradient(to bottom, #4ca2cd, #67b26f);
+        border: 1px solid #336699;
+        border-radius: 10px;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        padding: 10px 20px;
+        text-decoration: none;
+      ">Форматування (генератор кнопок)</a>
+
+      <h3>4. Готова HTML-кнопка</h3>
+      <button onclick="location.href='about/index.html'">Про HTML</button>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="#top">Вгору</a> | &copy; 2025 Мій HTML-проєкт</p>
+  </footer>
+</body>
+</html>
